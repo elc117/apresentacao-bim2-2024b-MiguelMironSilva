@@ -125,7 +125,7 @@ public class Main {
     cursoProfessor.put("Matemática", "Ana");
     cursoProfessor.put("Física", "Maria");
 
-    cursoProfessor.remove("Physics");
+    cursoProfessor.remove("Física");
     System.out.println(cursoProfessor);
   }
 }
@@ -182,7 +182,7 @@ public class Main {
 
     System.out.println("Cursos oferecidos:");
 
-    for (String i : professorCurso.keySet()) {
+    for (String i : cursoProfessor.keySet()) {
       System.out.println(i);
     }
 
